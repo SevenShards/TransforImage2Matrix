@@ -64,9 +64,9 @@ def Image_to_array_file():
         b_matrix = np.array(b).reshape(img_length, img_width)
         # print(r_arr)
 
-        np.savetxt("./buffer/r.txt", r_matrix, fmt='%d', delimiter=',')
-        np.savetxt("./buffer/g.txt", g_matrix, fmt='%d', delimiter=',')
-        np.savetxt("./buffer/b.txt", b_matrix, fmt='%d', delimiter=',')
+        # np.savetxt("./buffer/r.txt", r_matrix, fmt='%d', delimiter=',')
+        # np.savetxt("./buffer/g.txt", g_matrix, fmt='%d', delimiter=',')
+        # np.savetxt("./buffer/b.txt", b_matrix, fmt='%d', delimiter=',')
         return r_matrix, g_matrix, b_matrix
 
 
